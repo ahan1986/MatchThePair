@@ -1,9 +1,16 @@
-.cards {
-
+.cards img {
+    height: 110px;
+    width: 110px;
+    object-fit: scale-down;
 }
 
-.cards img {
-    height: 200px;
-    width: 300px;
-    object-fit: scale-down;
+.wrapper {
+    padding-top: 50px;
+    background: #ECEFF1;
+    height: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 20px black;
+    margin: 0 5% 1% 5%;
+    display: inline-block;
 }

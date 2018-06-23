@@ -46,21 +46,5 @@
     {
         "id": 12,
         "image": "./images/12.png"
-    },
-    {
-        "id": 13,
-        "image": "./images/13.jpeg"
-    },
-    {
-        "id": 14,
-        "image": "./images/14.png"
-    },
-    {
-        "id": 15,
-        "image": "./images/15.jpeg"
-    },
-    {
-        "id": 16,
-        "image": "./images/16.png"
     }
 ]
