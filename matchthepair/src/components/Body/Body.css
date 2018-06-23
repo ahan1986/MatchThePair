@@ -1,0 +1,9 @@
+.cards {
+
+}
+
+.cards img {
+    height: 200px;
+    width: 300px;
+    object-fit: scale-down;
+}
