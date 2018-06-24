@@ -23,11 +23,8 @@ class App extends Component {
     this.setState({
       selected: [...this.state.selected, event]
     });
-    console.log(this.state.score);
 
     return condition.includes(event) ? this.restartGame() : this.handleScore();
-
-    
 
   };
 
@@ -36,17 +33,16 @@ class App extends Component {
 
     // restart the score and the game
     this.setState({
-      score: 0
+      score: 0,
+      selected: []
     });
-
   };
 
   handleScore = event => {
 
     this.setState({
-      score: this.state.score + 1
+      score: this.state.score + 1,
     });
-
   };
 
   render() {
