@@ -1,7 +1,17 @@
 .footer {
     width: 100%;
-    height: 20%;
-    border: 1px solid black;
-    position: aboslute;
-    bottom: 0;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #4cc5d8;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
+    z-index: -1;
+    opacity: 0.9;
+
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    -webkit-box-shadow: 3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
 }
