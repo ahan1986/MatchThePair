@@ -12,7 +12,7 @@ class App extends Component {
     pokemon,
     score: 0,
     selected: [],
-    page: "Winner"
+    page: ""
   };
 
   handleInputClick = event => {

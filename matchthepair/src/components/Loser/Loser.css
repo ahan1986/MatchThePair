@@ -1,3 +1,36 @@
+.loserh1 {
+    padding-top: 3%;
+    margin: auto;
+    text-align: center;
+}
+
 .loserDiv {
     background-image: url("https://i.ytimg.com/vi/-WGBFcZaT_M/maxresdefault.jpg");
+    font-family: 'Chewy', cursive;
+    height: 400px;
+    align-items: center;
+    z-index: 10;
+    object-fit: fill;
+    color: yellowgreen;
+    text-shadow: 2px 2px black;
+    border: 2px solid black;
+    -moz-box-shadow:    3px 3px 5px 6px black;
+    -webkit-box-shadow: 3px 3px 5px 6px black;
+    box-shadow:         3px 3px 5px 6px black;
+    background-size: 100% 100%;
+}
+
+.loserh2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.loserbutton {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 45%;
 }

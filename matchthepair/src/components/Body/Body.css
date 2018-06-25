@@ -6,11 +6,11 @@
 
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
+    background-color: rgb(93, 207, 224);;
     height: 100%;
     padding: 20px;
     justify-content: space-around;
     box-shadow: 5px 5px 20px black;
-    margin: 0 5% 1% 5%;
+    margin: 2% 5% 2% 6%;
     display: inline-block;
 }
