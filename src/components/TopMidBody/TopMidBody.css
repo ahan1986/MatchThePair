@@ -1,0 +1,38 @@
+.topmidbodyDiv {
+    z-index: 100;
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(19, 153, 173);
+}
+
+.topmidbodyDiv > h1 {
+    font-size: 50px;
+    font-family: 'Chewy', cursive;
+    padding-top: 13%;
+}
+
+.topmidbodyDiv > img {
+    height: 90px;
+    z-index: -100;
+    animation: 
+    nudge 5s linear infinite alternate,
+    spin 4s linear infinite;
+}
+
+      
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(150px, 0);
+    }
+
+    80% {
+        transform: translate(-150px, 0);
+    }
+}
