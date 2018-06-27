@@ -1,7 +1,7 @@
 {
   "name": "matchthepair",
   "version": "0.1.0",
-  "homepage" : "http://myname.github.io/myapp",
+  "homepage" : "https://ahan1986.github.io/MatchThePair/",
   "private": true,
   "dependencies": {
     "react": "^16.4.1",
